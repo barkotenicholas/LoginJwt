@@ -41,6 +41,8 @@ style="margin: 0 auto; width: 300px ;height: 400px;"/>
 - Kotlin
 - jwt
 - Retrofit
+- Hilt
+- MVVM architecture
 
 ## Setup Instructions
 
