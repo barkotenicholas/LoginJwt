@@ -11,17 +11,17 @@
 <img src="/screenshots/home.webp"
 alt="Alt text"
 title="Home Page"
-style="display: inline-block; margin:20px; width: 150px; height:200px;"/>
+style="display: inline-block; margin:20px; width: 300px; height:200px;"/>
 
 <img src="/screenshots/login.webp"
 alt="Alt text"
 title="Login Page"
-style="display: inline-block; margin: 0 auto; width: 160px height : 200px;"/>
+style="display: inline-block; margin: 0 auto; width: 300px; height : 400px;"/>
 
 <img src="/screenshots/signup.webp"
 alt="Alt text"
 title="Sign Up"
-style="display: inline-block; margin: 0 auto; width: 150px height: 200px;"/>
+style="display: inline-block; margin: 0 auto; width: 300px ;height: 200px;"/>
 
 ![APM](https://img.shields.io/apm/l/vim-mode)
 
