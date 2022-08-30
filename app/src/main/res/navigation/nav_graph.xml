@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/loginFragment">
+    <fragment
+        android:id="@+id/signupFragment"
+        android:name="emo.barkote.login.ui.auth.signup.SignupFragment"
+        android:label="signupfragment"
+        tools:layout="@layout/signupfragment" >
+        <action
+            android:id="@+id/action_signupFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="emo.barkote.login.ui.auth.login.LoginFragment"
+        android:label="loginfragment"
+        tools:layout="@layout/loginfragment" >
+        <action
+            android:id="@+id/action_loginFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+        <action
+            android:id="@+id/action_loginFragment_to_signupFragment"
+            app:destination="@id/signupFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="emo.barkote.login.ui.home.HomeFragment"
+        android:label="homefragment"
+        tools:layout="@layout/homefragment" >
+        <argument
+            android:name="login"
+            app:argType="emo.barkote.login.api.models.LoginResponse"
+            app:nullable="true"
+            android:defaultValue="@null" />
+    </fragment>
+</navigation>
