@@ -8,20 +8,23 @@
 
 # screenshots
 
+-Home Page
 <img src="/screenshots/home.webp"
 alt="Alt text"
 title="Home Page"
-style="display: inline-block; margin:20px; width: 300px; height:200px;"/>
+style="display: inline-block; margin:20px; width: 300px; height:400px;"/>
 
+-Login Page
 <img src="/screenshots/login.webp"
 alt="Alt text"
 title="Login Page"
 style="display: inline-block; margin: 0 auto; width: 300px; height : 400px;"/>
 
+-SignUp Page 
 <img src="/screenshots/signup.webp"
 alt="Alt text"
 title="Sign Up"
-style="display: inline-block; margin: 0 auto; width: 300px ;height: 200px;"/>
+style="display: inline-block; margin: 0 auto; width: 300px ;height: 400px;"/>
 
 ![APM](https://img.shields.io/apm/l/vim-mode)
 
