@@ -11,7 +11,7 @@
 <img src="/screenshots/home.webp"
 alt="Alt text"
 title="Home Page"
-style="display: inline-block; margin: 0 auto; max-width: 300px"/>
+style="display: inline-block; margin: 0 auto; max-width: 150"/>
 
 <img src="/screenshots/login.webp"
 alt="Alt text"
